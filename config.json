@@ -1,0 +1,113 @@
+{
+
+    "name": "My Enviro Project",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "agents": [ 
+        {
+            "definition": "defs/ghost.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": {
+                "x": -300,
+                "y": -180,
+                "theta": 1.57
+            }
+        },
+        {
+            "definition": "defs/ghost.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": {
+                "x": 300,
+                "y": 180,
+                "theta": -1.57
+            }
+        },
+        {
+            "definition": "defs/player.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "theta": 1.57
+            }
+        },
+        {
+            "definition": "defs/display.json",
+            "style": { "fill": "none", "stroke": "none" },
+            "position": {
+                "x": -350,
+                "y": -200,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/gold.json",
+            "style": { "fill": "gold", "stroke": "black" },
+            "position": {
+                "x": 0,
+                "y": 80,
+                "theta": 0
+            }
+        }
+    ],
+    "statics": [
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": -350,  "y": 200 },
+                { "x": -340,  "y": 200 },
+                { "x": -340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": -200 },
+                { "x": 350,  "y": 200 },
+                { "x": 340,  "y": 200 },
+                { "x": 340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 200 },
+                { "x": 350,  "y": 200 },
+                { "x": 350,  "y": 190 },
+                { "x": -350, "y": 190 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": 350,  "y": -200 },
+                { "x": 350,  "y": -190 },
+                { "x": -350, "y": -190 }
+            ]
+        },
+
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 150, "y": -120 },
+                { "x": 150, "y": 120 },
+                { "x": 140, "y": 120 },
+                { "x": 140, "y": -120 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -150, "y": -120 },
+                { "x": -150,  "y": 120 },
+                { "x": -140,  "y": 120 },
+                { "x": -140, "y": -120 }
+            ]
+        }
+
+    ]
+
+}
